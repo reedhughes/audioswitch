@@ -1,3 +1,19 @@
+2.0 RC4
+All audio devices related events are now shown in icon state.
+Should have less crashes because of adding or removing devices.
+Tracked down a few memory leaks.
+---------------------
+
+2.0 RC3
+AudioSwitch is now installed under user's local AppData folder with the settings file.
+Right-click on the icon now shows the menu for settings and exit.
+Possibly fixed the device hiding.
+Command-line now always exits and never runs GUI since it makes most sense to keep them separate (no -x option anymore).
+Added scrollbar for device list in settings.
+Mouse scroll could be working a bit better now.
+When last settings tab is visible then it's possible to drag the OSD window around the screen and the position is saved.
+---------------------
+
 1.42
 added support for .ico files as device icons.
 ---------------------
